@@ -34,7 +34,7 @@ exec java -Xms2G -Xmx4G -jar server.jar nogui
 ```
 
 
-```[🪟 Windows (.bat)
+```🪟 Windows (.bat)
 ▶️ Run server
 run.bat
 📜 run.bat
@@ -49,7 +49,7 @@ import subprocess
 if platform.system() == "Windows":
     subprocess.Popen(["run.bat"])
 else:
-    subprocess.Popen(["bash", "run.sh"])]]
+    subprocess.Popen(["bash", "run.sh"])
 ```
 
 
@@ -60,8 +60,8 @@ else:
 📦 Requirements
 Linux
 
-```[sudo apt update
-sudo apt install python3 python3-tk openjdk-17-jre -y]
+```sudo apt update
+sudo apt install python3 python3-tk openjdk-17-jre -y
 ```
 
 
