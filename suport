@@ -1,0 +1,24 @@
+# 🆘 MinePanel GUI Support
+
+If the application does not open or fails to start:
+
+## 1. Check Java
+Make sure Java 17+ is installed and available in PATH.
+
+## 2. Check Python
+Python 3.10+ is required with Tkinter installed.
+
+## 3. Server not starting
+Ensure minecraft-server folder exists and contains a valid server.jar or run.sh configuration.
+
+## 4. GUI not opening
+Run the script manually:
+
+Linux:
+bash run.sh
+
+Windows:
+run.bat (Run as Administrator)
+
+## 5. Logs / errors
+Check terminal output or minecraft_panel.log file.
