@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Minecraft Panel Server
+Exec=python3 /home/oem/minecraftpanel/gui.py
+Icon=/home/oem/Downloads/5515d863fdb72b36af49a0bf16d1c673.jpg
+Terminal=false
+Type=Application
+Categories=Game;
