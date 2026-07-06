@@ -22,7 +22,7 @@ Without administrator privileges, installation and server execution may fail.
 
 ## 📦 Install dependencies
 
-```bash
+```[bash
 sudo apt update
 sudo apt install python3 python3-tk openjdk-17-jre -y
 ▶️ Run server
@@ -30,7 +30,8 @@ bash run.sh
 📜 run.sh
 #!/usr/bin/env bash
 cd minecraft-server
-exec java -Xms2G -Xmx4G -jar server.jar nogui
+exec java -Xms2G -Xmx4G -jar server.jar nogui]
+
 🪟 Windows (.bat)
 ▶️ Run server
 run.bat
